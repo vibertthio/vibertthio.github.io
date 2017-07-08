@@ -5,6 +5,13 @@ import logoBright from '../assets/images/flash-60-bright.svg';
 import logo from '../assets/images/flash-60.svg';
 import '../styles/Nav.scss';
 
+/**
+ * [delayedReload description]
+ */
+function delayedReload() {
+  window.setTimeout(() => location.reload(), 100);
+}
+
 const Nav = (props) => {
   console.log('navigating');
   const br = (props.location.pathname === '/' ? 'bright' : '');
@@ -17,7 +24,7 @@ const Nav = (props) => {
               src={props.location.pathname === '/' ? logoBright : logo}
               className={`nav-logo ${br}`}
               alt="logo"
-              onTouchTap={() => window.location.reload()}
+              onTouchTap={() => delayedReload()}
             />
           </NavLink>
         </li>
@@ -27,7 +34,7 @@ const Nav = (props) => {
             className={br}
             activeClassName="active"
             to="/"
-            onTouchTap={() => window.location.reload()}
+            onTouchTap={() => delayedReload()}
           >
             Home
           </NavLink>

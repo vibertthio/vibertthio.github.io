@@ -25,15 +25,6 @@ const About = () => (
         He is currently also working on research of VR and Bio-art study.
       </p>
 
-      <p className="about-content">
-        He has participated in the Project 《Étude》,
-        and performed at 2017 Click Festival in Denmark.
-      </p>
-
-      <p className="about-content">
-        Besides, he was also rewarded in
-        2016 international CAD contest for resolving circuit algorithm.
-      </p>
       <div>
         <ul className="sn-list">
           <li>

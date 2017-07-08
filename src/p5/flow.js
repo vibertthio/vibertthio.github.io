@@ -5,8 +5,8 @@ import { Vector } from 'p5';
  */
 export default function sketch(p) {
   let rotation = 0;
-  let width = 800;
-  let height = 500;
+  let width = screen.width;
+  let height = screen.height;
 
   const scl = 15;
   const nOfP = 1024;

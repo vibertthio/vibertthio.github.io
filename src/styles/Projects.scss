@@ -1,4 +1,8 @@
-hr {
+.project-list-item {
+  margin-bottom: 60px;
+}
+
+.project-devider {
   opacity: 0.3;
 }
 
@@ -31,13 +35,23 @@ hr {
   line-height: 1.8em;
 }
 
+.projects-description a {
+  text-decoration: none;
+  color: #000;
+  opacity: 0.5;
+}
+
+.projects-description a:hover {
+  opacity: 1;
+}
+
 .thumbnail-project-img {
   position: relative;
   float: right;
   margin-top: 0;
   margin-left: 30px;
   margin-bottom: 30px;
-  margin-right: 60px;
+  margin-right: 40px;
   width: 60%;
   height: 600px;
   overflow: hidden;
@@ -74,7 +88,7 @@ hr {
     font-size: 2.8em;
     font-family: "Oswald";
     font-weight: 300;
-    letter-spacing: 0.8em;
+    letter-spacing: 0.5em;
   }
 
   .thumbnail-project-img {
@@ -109,7 +123,7 @@ hr {
     font-size: 2.5em;
     font-family: "Oswald";
     font-weight: 300;
-    letter-spacing: 0.8em;
+    letter-spacing: 0.3em;
   }
 
   .thumbnail-project-img {

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import P5Wrapper from 'react-p5-wrapper';
+import { Redirect } from 'react-router-dom';
 import { WindowResizeListener } from 'react-window-resize-listener';
 
 
@@ -44,6 +45,7 @@ class Home extends Component {
   render() {
     return (
       <div>
+        <Redirect to="/" />
         <P5Wrapper
           sketch={sketch}
           width={this.state.width}

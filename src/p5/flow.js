@@ -171,4 +171,8 @@ export default function sketch(p) {
     g = p.floor((p.noise(300, 100, zoff) * rate + offset) * scale);
     b = p.floor((p.noise(300, 500, zoff) * rate + offset) * scale);
   }
+
+  function exit() {
+    p.noLoop();
+  }
 }

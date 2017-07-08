@@ -1,0 +1,55 @@
+.about-title {
+  margin: 1em 2em;
+  font-size: 3em;
+  font-family: "Oswald";
+  font-weight: 300;
+  letter-spacing: 0.8em;
+}
+
+.about-container {
+  margin: 1em 6em;
+  font-size: 1em;
+  font-weight: 300;
+  width: 400px;
+}
+
+.about-content {
+  margin-top: 1em;
+  font-family: "open sans";
+}
+
+@media only screen and (max-width: 600px) {
+  .about-title {
+    margin: 0.5em 1em;
+    font-size: 2.8em;
+    font-family: "Oswald";
+    font-weight: 300;
+    letter-spacing: 0.8em;
+  }
+
+  .about-container {
+    display: block;
+    margin: 1em 3em;
+    font-size: 1em;
+    font-weight: 300;
+    width: 380px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .about-title {
+    margin: 0.5em 0.8em;
+    font-size: 2.5em;
+    font-family: "Oswald";
+    font-weight: 300;
+    letter-spacing: 0.8em;
+  }
+
+  .about-container {
+    display: block;
+    margin: 1em 2em;
+    font-size: 1em;
+    font-weight: 300;
+    width: 300px;
+  }
+}

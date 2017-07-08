@@ -1,16 +1,17 @@
 .home-title {
   position: relative;
-  font-style: italic;
+  // font-style: italic;
   color: #CCC;
-  font-family: "Open Sans";
-  font-weight: 600;
+  // font-family: "Open Sans";
+  font-family: "Oswald";
+  font-weight: 300;
   font-size: 5em;
   letter-spacing: 0.8em;
   margin: 0.8em;
   transform: scale(.8, 1);
 
   -webkit-user-select: none;
-  -moz-user-select: none;    
+  -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
 }
@@ -24,8 +25,6 @@
 
 @media only screen and (max-width: 600px) {
   .home-title {
-    font-family: "Open Sans";
-    font-weight: 600;
     font-size: 3.5em;
     letter-spacing: 0.4em;
     margin: 0.6em;

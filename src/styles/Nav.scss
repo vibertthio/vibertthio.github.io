@@ -5,12 +5,22 @@ Nav
   display: flex;
   list-style-type: none;
   padding: 1em 2em;
+  color: #555;
 }
 
 .nav .active {
   font-weight: bold;
   color: #000;
 }
+
+.nav .bright {
+  color: #AAA;
+}
+
+.nav .bright.active {
+  color: #FFF;
+}
+
 
 .nav li {
   margin-right: 1.1em;

@@ -1,13 +1,21 @@
 .home-title {
+  position: relative;
+  font-style: italic;
+  color: #CCC;
   font-family: "Open Sans";
   font-weight: 600;
   font-size: 5em;
   letter-spacing: 0.8em;
   margin: 0.8em;
   transform: scale(.8, 1);
+
+  -webkit-user-select: none;
+  -moz-user-select: none;    
+  -ms-user-select: none;
+  user-select: none;
 }
 
-.p5-sketch {
+.p5-canvas {
   position: fixed;
   top: 0;
   left: 0;

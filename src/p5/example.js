@@ -1,17 +1,24 @@
-export default function sketch (p) {
+/**
+ * [sketch description]
+ * @param  {[type]} p [description]
+ */
+export default function sketch(p) {
   let rotation = 0;
+  let width = 800;
+  let height = 500;
 
-  p.setup = function () {
-    p.createCanvas(1000, 600, p.WEBGL);
+  p.setup = () => {
+    const canvas = p.createCanvas(width, height);
+    canvas.class('p5-canvas');
   };
 
-  p.myCustomRedrawAccordingToNewPropsHandler = function (props) {
-    if (props.rotation){
-      rotation = props.rotation * Math.PI / 180;
-    }
+  p.myCustomRedrawAccordingToNewPropsHandler = (props) => {
+    width = props.width;
+    height = props.height;
+    p.setup();
   };
 
-  p.draw = function () {
+  p.draw = () => {
     rotation += 0.01;
     p.background(100);
     p.noStroke();
@@ -20,4 +27,4 @@ export default function sketch (p) {
     p.box(100);
     p.pop();
   };
-};
+}

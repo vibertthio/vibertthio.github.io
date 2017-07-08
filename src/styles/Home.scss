@@ -7,6 +7,13 @@
   transform: scale(.8, 1);
 }
 
+.p5-sketch {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
 @media only screen and (max-width: 600px) {
   .home-title {
     font-family: "Open Sans";

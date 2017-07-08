@@ -1,0 +1,127 @@
+hr {
+  opacity: 0.3;
+}
+
+.project-container {
+  position: relative;
+  display: block;
+  margin-bottom: 50px;
+  min-height: 800px;
+}
+
+.project-title {
+  margin: 1em 2em;
+  font-size: 3em;
+  font-family: "Oswald";
+  font-weight: 300;
+  letter-spacing: 0.8em;
+}
+
+.description-container {
+  display: block;
+  margin: 1em 6em;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.projects-description {
+  margin-top: 0;
+  font-family: "open sans";
+  letter-spacing: 0.1em;
+  line-height: 1.8em;
+}
+
+.thumbnail-project-img {
+  position: relative;
+  float: right;
+  margin-top: 0;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  margin-right: 60px;
+  width: 60%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.thumbnail-project-img img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
+@media only screen and (max-width: 1100px) {
+  .thumbnail-project-img {
+    position: relative;
+    float: left;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 630px;
+    overflow: hidden;
+  }
+}
+
+
+@media only screen and (max-width: 720px) {
+  .project-title {
+    margin: 0.5em 1em;
+    font-size: 2.8em;
+    font-family: "Oswald";
+    font-weight: 300;
+    letter-spacing: 0.8em;
+  }
+
+  .thumbnail-project-img {
+    position: relative;
+    float: left;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 400px;
+  }
+
+  .description-container {
+    display: block;
+    margin: 1em 2em;
+    font-size: 0.9em;
+    font-weight: 300;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .project-container {
+    position: relative;
+    display: block;
+    margin-bottom: 50px;
+    min-height: 400px;
+  }
+
+  .project-title {
+    margin: 0.5em 0.8em;
+    font-size: 2.5em;
+    font-family: "Oswald";
+    font-weight: 300;
+    letter-spacing: 0.8em;
+  }
+
+  .thumbnail-project-img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .description-container {
+    display: block;
+    margin: 0.8em 1em;
+    font-size: 0.8em;
+    font-weight: 300;
+    width: 90%;
+  }
+}

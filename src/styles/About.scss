@@ -16,6 +16,26 @@
 .about-content {
   margin-top: 1em;
   font-family: "open sans";
+  letter-spacing: 0.1em;
+  line-height: 1.8em;
+}
+
+
+.sn-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.sn-icon {
+  width: 20px;
+  height: auto;
+  margin-top: 3em;
+  margin-right: 2em;
+  opacity: 0.5;
+}
+
+.sn-icon:hover {
+  opacity: 0.9;
 }
 
 @media only screen and (max-width: 600px) {
@@ -33,6 +53,14 @@
     font-size: 1em;
     font-weight: 300;
     width: 380px;
+  }
+
+  .sn-icon {
+    width: 18px;
+    height: auto;
+    margin-top: 2em;
+    margin-right: 1.4em;
+    opacity: 0.5;
   }
 }
 

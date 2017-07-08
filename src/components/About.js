@@ -1,4 +1,7 @@
 import React from 'react';
+import fbIcon from '../assets/images/fb-icon.svg';
+import ghIcon from '../assets/images/gh-icon.svg';
+import mdIcon from '../assets/images/medium-icon.svg';
 import '../styles/About.scss';
 
 const About = () => (
@@ -31,6 +34,50 @@ const About = () => (
         Besides, he was also rewarded in
         2016 international CAD contest for resolving circuit algorithm.
       </p>
+      <div>
+        <ul className="sn-list">
+          <li>
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://www.facebook.com/vibert.thio"
+            >
+              <img
+                src={fbIcon}
+                className="sn-icon"
+                alt="fb-icon"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://github.com/vibertthio"
+            >
+              <img
+                src={ghIcon}
+                className="sn-icon"
+                alt="gh-icon"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://medium.com/@vibertthio"
+            >
+              <img
+                src={mdIcon}
+                className="sn-icon"
+                alt="medium-icon"
+              />
+            </a>
+          </li>
+
+        </ul>
+      </div>
     </div>
   </div>
 );

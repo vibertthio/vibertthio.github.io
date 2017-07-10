@@ -57,6 +57,16 @@ const Nav = (props) => {
             Projects
           </NavLink>
         </li>
+        <li>
+          <a
+            className={br}
+            href="https://safe-stream-69256.herokuapp.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Beact
+          </a>
+        </li>
       </ul>
     </div>
   );

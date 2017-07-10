@@ -17,9 +17,9 @@ module.exports = {
     './src/styles/index.scss'
   ],
   output: {
-    publicPath: './',
+    publicPath: '/',
     path: path.join(__dirname, 'public'),
-    filename: '[chunkhash].js'
+    filename: '[chunkhash].js',
   },
   resolve: {
     extensions: ['.js', '.jsx']
@@ -48,7 +48,7 @@ module.exports = {
       allChunks: true
     }),
     new HtmlWebpackPlugin({
-      template: './src/index.html',
+      template: './src/template.html',
       files: {
         css: ['style.css'],
         js: ['bundle.js'],

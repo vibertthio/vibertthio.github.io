@@ -287,7 +287,7 @@ Nav
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 300;
-  src: local("Open Sans Light"), local("OpenSans-Light"), url(./10dbc03f6171f566d4eb80643014ccbd.woff2) format("woff2"), url(./80093af4e43c616635651b60abcacffb.woff) format("woff");
+  src: local("Open Sans Light"), local("OpenSans-Light"), url(/assets/fonts/10dbc03f6171f566d4eb80643014ccbd.woff2) format("woff2"), url(/assets/fonts/80093af4e43c616635651b60abcacffb.woff) format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -296,7 +296,7 @@ Nav
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: local("Open Sans Regular"), local("OpenSans-Regular"), url(./9bd6fd3f39a88e34c897f388e6a2c50f.woff2) format("woff2"), url(./e447d08f4d164f3995e7c5090a735332.woff) format("woff");
+  src: local("Open Sans Regular"), local("OpenSans-Regular"), url(/assets/fonts/9bd6fd3f39a88e34c897f388e6a2c50f.woff2) format("woff2"), url(/assets/fonts/e447d08f4d164f3995e7c5090a735332.woff) format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -305,7 +305,7 @@ Nav
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 700;
-  src: local("Open Sans Bold Italic"), local("OpenSans-BoldItalic"), url(./80300f16880e83016ced900461ef2097.woff2) format("woff2"), url(./a97a3aae80356b0497b7d24aa9bdfa27.woff) format("woff");
+  src: local("Open Sans Bold Italic"), local("OpenSans-BoldItalic"), url(/assets/fonts/80300f16880e83016ced900461ef2097.woff2) format("woff2"), url(/assets/fonts/a97a3aae80356b0497b7d24aa9bdfa27.woff) format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -314,9 +314,7 @@ Nav
   font-family: 'VT323';
   font-style: normal;
   font-weight: 400;
-  src: url(./6831ed7bdc7227384b03666af82ea028.eot);
-  /* IE9 Compat Modes */
-  src: local("VT323 Regular"), local("VT323-Regular"), url(./6831ed7bdc7227384b03666af82ea028.eot?#iefix) format("embedded-opentype"), url(./b4e11f436dd6c4130f2aa3961e719c31.woff2) format("woff2"), url(./e2353f92a0ea88f29a30a3761b91765a.woff) format("woff"), url(./735e0b3b4bbaa97f21ac5a862d310c7e.ttf) format("truetype"), url(./e91ab05faa8d30bbe01397d6cf56cf48.svg#VT323) format("svg");
+  src: local("VT323 Regular"), local("VT323-Regular"), url(/assets/fonts/b4e11f436dd6c4130f2aa3961e719c31.woff2) format("woff2"), url(/assets/fonts/e2353f92a0ea88f29a30a3761b91765a.woff) format("woff"), url(/assets/fonts/735e0b3b4bbaa97f21ac5a862d310c7e.ttf) format("truetype"), url(/assets/images/e91ab05faa8d30bbe01397d6cf56cf48.svg#VT323) format("svg");
   /* Legacy iOS */
 }
 
@@ -325,9 +323,7 @@ Nav
   font-family: 'Contrail One';
   font-style: normal;
   font-weight: 400;
-  src: url(./8750df42045b87796748854f909fd9ff.eot);
-  /* IE9 Compat Modes */
-  src: local("Contrail One"), local("ContrailOne-Regular"), url(./8750df42045b87796748854f909fd9ff.eot?#iefix) format("embedded-opentype"), url(./e5bb8b1f6143a9814681da11dbb67f51.woff2) format("woff2"), url(./696d5e736442f8320f5119fd93323de0.woff) format("woff"), url(./6732fb19c319e99df1a74d8f3dcfda7f.ttf) format("truetype"), url(./11cb3c44d7cc1d94d40c028da8e3bf5e.svg#ContrailOne) format("svg");
+  src: local("Contrail One"), local("ContrailOne-Regular"), url(/assets/fonts/e5bb8b1f6143a9814681da11dbb67f51.woff2) format("woff2"), url(/assets/fonts/696d5e736442f8320f5119fd93323de0.woff) format("woff"), url(/assets/fonts/6732fb19c319e99df1a74d8f3dcfda7f.ttf) format("truetype"), url(/assets/images/11cb3c44d7cc1d94d40c028da8e3bf5e.svg#ContrailOne) format("svg");
   /* Legacy iOS */
 }
 
@@ -336,7 +332,7 @@ Nav
   font-family: 'Oswald';
   font-style: normal;
   font-weight: 400;
-  src: local("Oswald Regular"), local("Oswald-Regular"), url(./adcef7da535697d48d012b2ffcaf5d02.woff2) format("woff2"), url(./83f530ac777dc45df0da937d841a6b0b.woff) format("woff");
+  src: local("Oswald Regular"), local("Oswald-Regular"), url(/assets/fonts/adcef7da535697d48d012b2ffcaf5d02.woff2) format("woff2"), url(/assets/fonts/83f530ac777dc45df0da937d841a6b0b.woff) format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -345,7 +341,7 @@ Nav
   font-family: 'Oswald';
   font-style: normal;
   font-weight: 500;
-  src: local("Oswald Medium"), local("Oswald-Medium"), url(./9d1c4c6c8410464ec5d08f18f6c176cd.woff2) format("woff2"), url(./06c9398afea7f4bdc38a65494d96f48f.woff) format("woff");
+  src: local("Oswald Medium"), local("Oswald-Medium"), url(/assets/fonts/9d1c4c6c8410464ec5d08f18f6c176cd.woff2) format("woff2"), url(/assets/fonts/06c9398afea7f4bdc38a65494d96f48f.woff) format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -354,7 +350,7 @@ Nav
   font-family: 'Oswald';
   font-style: normal;
   font-weight: 300;
-  src: local("Oswald Light"), local("Oswald-Light"), url(./d287e604182b18f7adb55daa1643dc83.woff2) format("woff2"), url(./6f230579880d547bb70c7aab423daab4.woff) format("woff");
+  src: local("Oswald Light"), local("Oswald-Light"), url(/assets/fonts/d287e604182b18f7adb55daa1643dc83.woff2) format("woff2"), url(/assets/fonts/6f230579880d547bb70c7aab423daab4.woff) format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -363,7 +359,7 @@ Nav
   font-family: 'Oswald';
   font-style: normal;
   font-weight: 600;
-  src: local("Oswald SemiBold"), local("Oswald-SemiBold"), url(./dd11f9917919e2154687a9c32e94bbfd.woff2) format("woff2"), url(./5db2da873ef90a29e33516002391c5f7.woff) format("woff");
+  src: local("Oswald SemiBold"), local("Oswald-SemiBold"), url(/assets/fonts/dd11f9917919e2154687a9c32e94bbfd.woff2) format("woff2"), url(/assets/fonts/5db2da873ef90a29e33516002391c5f7.woff) format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 

@@ -7,7 +7,8 @@
     "build": "webpack --config webpack.production.config.js --progress --profile --colors",
     "start": "webpack-dev-server --progress --profile --colors",
     "lint": "eslint --ext js --ext jsx src || exit 0",
-    "dev": " webpack-dashboard -- webpack-dev-server --progress --profile --colors"
+    "dev": " webpack-dashboard -- webpack-dev-server --progress --profile --colors",
+    "deploy": "gh-pages -d public -b master -m ':guitar: deploy updated version'"
   },
   "author": "Vibert Thio",
   "license": "MIT",
@@ -43,6 +44,7 @@
     "eslint-plugin-react": "^6.10.3",
     "extract-text-webpack-plugin": "^v2.0.0-rc.1",
     "file-loader": "^0.10.0",
+    "gh-pages": "^1.0.0",
     "html-webpack-plugin": "^2.26.0",
     "postcss-loader": "^1.2.2",
     "react-hot-loader": "^3.0.0-beta.6",

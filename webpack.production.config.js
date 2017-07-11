@@ -4,6 +4,7 @@ var loaders = require('./webpack.loaders');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var WebpackCleanupPlugin = require('webpack-cleanup-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 loaders.push({
   test: /\.scss$/,
@@ -53,6 +54,9 @@ module.exports = {
         css: ['style.css'],
         js: ['bundle.js'],
       }
-    })
+    }),
+    new CopyWebpackPlugin([
+      { from: 'src/assets/thumbnail/thumbnail.png' },
+    ]),
   ]
 };

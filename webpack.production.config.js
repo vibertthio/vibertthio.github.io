@@ -56,7 +56,7 @@ module.exports = {
       }
     }),
     new CopyWebpackPlugin([
-      { from: 'src/assets/thumbnail/thumbnail.png' },
+      { from: 'src/assets/thumbnail/thumbnail.png', to: 'assets/thumbnail/thumbnail.png' },
     ]),
   ]
 };

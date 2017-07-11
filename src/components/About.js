@@ -9,7 +9,7 @@ const About = () => (
     <h1 className="about-title">About</h1>
     <div className="about-container">
       <p className="about-content">
-        Vibert Thio is dedicated in digging into edged tech,
+        Vibert Thio is digging into edged tech,
         and transforming it to the energy of
         creating his art pieces in new form.
       </p>

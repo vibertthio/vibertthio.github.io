@@ -1,7 +1,7 @@
 {
   "name": "my-react-starter",
   "version": "0.0.0",
-  "description": "vibert's react starter",
+  "description": "vibert's personal website",
   "main": "''",
   "scripts": {
     "build": "webpack --config webpack.production.config.js --progress --profile --colors",

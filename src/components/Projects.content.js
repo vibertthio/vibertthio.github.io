@@ -61,7 +61,7 @@ const projects = [
       <br/>
       <br/>
       <a className="project-links"
-         href="https://safe-stream-69256.herokuapp.com/"
+         href="https://beact.herokuapp.com/"
          rel="noopener noreferrer"
          target="_blank"
       >

@@ -1,5 +1,5 @@
 import etudeImg from '../assets/images/etude/etude-01.jpg';
-import beactImg from '../assets/images/beact/sc-03.png';
+import beactImg from '../assets/images/beact/perf.jpg';
 import transImg from '../assets/images/transperception/sc-01.png';
 import vtbbImg from '../assets/images/vtbb/sc-01.png';
 import expImg from '../assets/images/avexp/sc-01.png';

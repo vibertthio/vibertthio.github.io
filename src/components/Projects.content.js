@@ -23,11 +23,27 @@ const projects = [
       <br/>
       <br/>
       <a className="project-links"
+         href="https://www.aec.at/ai/en/etude/"
+         rel="noopener noreferrer"
+         target="_blank"
+      >
+        > Ars Electronica Festival 2017
+      </a>
+      <br/>
+      <a className="project-links"
+         href="http://www.clickfestival.dk/etude"
+         rel="noopener noreferrer"
+         target="_blank"
+      >
+        > Click Festival 2017
+      </a>
+      <br/>
+      <a className="project-links"
          href="https://www.youtube.com/watch?v=zU01cFDjL6s"
          rel="noopener noreferrer"
          target="_blank"
       >
-        > showcase in Taipei
+        > showcase in Taipei 2016
       </a>
       <br/>
       <a className="project-links"
@@ -37,14 +53,7 @@ const projects = [
       >
         > source code
       </a>
-      <br/>
-      <a className="project-links"
-         href="http://www.clickfestival.dk/etude"
-         rel="noopener noreferrer"
-         target="_blank"
-      >
-        > click festival
-      </a>
+
     `,
     img: etudeImg,
   },
@@ -59,6 +68,13 @@ const projects = [
       I have added some my own animation and will
       do more to replace ones from patatap.
       <br/>
+      <br/>
+      <a className="project-links"
+         href="https://vimeo.com/226318485"
+         rel="noopener noreferrer"
+         target="_blank"
+      >
+        > showcase video</a>
       <br/>
       <a className="project-links"
          href="https://beact.herokuapp.com/"
@@ -126,7 +142,7 @@ const projects = [
          rel="noopener noreferrer"
          target="_blank"
       >
-        > demo video</a>
+        > showcase video</a>
       <br/>
       <a className="project-links"
          href="https://github.com/vibertthio/VTBB"
@@ -141,12 +157,9 @@ const projects = [
   {
     title: 'AV_EXP',
     content: `
-      An interative toy, an audio visual work.
-      It's Written in Processing for visual, pure data for sound.
-      In 2016 July, Vibert met Aluan Wang as a mentor. He gave Vibert the homework
-      about finishing a simple conception demonstrated in VTBB.
-      He spend a whole night to complete the basic logic with an awful color setting.
-      Continued...
+      A serie of audio/visual art work.
+      Thio is trying to use only Processing, Pure Data, and several software
+      tool to explore the possibility of programming.
       <br/>
       <br/>
       <a className="project-links"
@@ -169,12 +182,8 @@ const projects = [
   {
     title: 'beatmap',
     content: `
-      An interative toy, an audio visual work.
-      It's Written in Processing for visual, pure data for sound.
-      In 2016 July, Vibert met Aluan Wang as a mentor. He gave Vibert the homework
-      about finishing a simple conception demonstrated in VTBB.
-      He spend a whole night to complete the basic logic with an awful color setting.
-      Continued...
+      An generative musical instrument. It uses the algorithm of maps
+      to creative organic melodies and beats.
       <br/>
       <br/>
       <a className="project-links"

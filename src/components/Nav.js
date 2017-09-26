@@ -49,6 +49,16 @@ const Nav = (props) => {
           </NavLink>
         </li>
         <li>
+          <a
+            className={br}
+            href="https://drive.google.com/file/d/0ByNwzf7aYOQ3WnVuMmdWZG5WZnc/view?usp=sharing"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            CV/Resumé
+          </a>
+        </li>
+        <li>
           <NavLink
             className={br}
             activeClassName="active"

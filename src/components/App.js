@@ -11,7 +11,7 @@ import '../styles/index.scss';
 const App = () => (
   <MuiThemeProvider>
     <HashRouter>
-      <div>
+      <div className="home-container">
         <Route component={Nav} />
         <Route exact path="/" component={Home} />
         <Route exact path="/About" component={About} />

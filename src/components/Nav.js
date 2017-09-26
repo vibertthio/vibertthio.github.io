@@ -55,7 +55,7 @@ const Nav = (props) => {
             rel="noopener noreferrer"
             target="_blank"
           >
-            CV/Resumé
+            CV
           </a>
         </li>
         <li>

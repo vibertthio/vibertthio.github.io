@@ -38,7 +38,6 @@ const projects = [
         > Click Festival 2017
       </a>
       <br/>
-      <br/>
       <a className="project-links"
          href="https://www.youtube.com/watch?v=lHnUpyWlh6k&t=1329s"
          rel="noopener noreferrer"

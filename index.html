@@ -14,23 +14,43 @@
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 		<style>
 		body {
-			font-family: Monospace;
+			font-family: Oswald, monospace;
 			background-color: #f0f0f0;
 			margin: 0px;
 			overflow: hidden;
 		}
 		#info {
 			position: absolute;
-			top: 0px;
+			/* top: 0px; */
+			top: 50%;
 			width: 100%;
 			padding: 5px;
-			font-family:Monospace;
-			font-size:13px;
+			font-family: Oswald, monospace;
+			font-size: 1rem;
 			text-align:center;
 			color: #ffffff;
+
+			transform: scale(1, 1.2);
+			-webkit-transform: scale(1, 1.2); /* Safari and Chrome */
+			-moz-transform: scale(1, 1.2); /* Firefox */
+			-ms-transform: scale(1, 1.2); /* IE 9+ */
+			-o-transform: scale(1, 1.2); /* Opera */
 		}
 		a {
-			color: #ffffff;
+			color: #aaa;
+			letter-spacing: 0.5rem;
+			text-decoration: none;
+
+			-webkit-touch-callout: none; /* iOS Safari */
+			-webkit-user-select: none; /* Safari */
+			 -khtml-user-select: none; /* Konqueror HTML */
+				 -moz-user-select: none; /* Firefox */
+					-ms-user-select: none; /* Internet Explorer/Edge */
+							user-select: none; /* Non-prefixed version, currently
+																		supported by Chrome and Opera */
+		}
+		a:hover {
+			color: #ccc;
 		}
 		</style>
 	</head>
@@ -108,13 +128,13 @@
 				container.appendChild( renderer.domElement );
 				//
 				controls = new THREE.TrackballControls( camera, renderer.domElement );
-				controls.rotateSpeed = 5.0;
-				controls.zoomSpeed = 2.2;
-				controls.panSpeed = 1;
-				controls.dynamicDampingFactor = 0.3;
+				controls.rotateSpeed = 0.1;
+				controls.zoomSpeed = 0.05;
+				controls.panSpeed = 0.1;
+				controls.dynamicDampingFactor = 0.1;
 
 				controls.minDistance = 100;
-				controls.maxDistance = 200;
+				controls.maxDistance = 110;
 
 				window.addEventListener( 'resize', onWindowResize, false );
 

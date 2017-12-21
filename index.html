@@ -73,6 +73,7 @@
 				// gui = new dat.GUI( { width: 350 } ),
 				options, spawnerOptions, particleSystem;
 			var stats;
+			let framecount = 0;
 			init();
 			animate();
 			function init() {
@@ -158,6 +159,14 @@
 				}
 				particleSystem.update( tick );
 				render();
+				framecount += 1;
+
+				if (framecount > 100) {
+					framecount = 0;
+					// renderer.clearStencil();
+					renderer.clear(true, true, true);
+					console.log('clear');
+				}
 				stats.update();
 			}
 			function render() {

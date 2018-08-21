@@ -14,8 +14,10 @@
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 		<style>
 		body {
-			font-family: Oswald, monospace;
-			background-color: #f0f0f0;
+			/* font-family: Oswald, monospace; */
+			font-family: monospace;
+			/* background-color: #f0f0f0; */
+			background-color: #000;
 			margin: 0px;
 			overflow: hidden;
 		}
@@ -25,7 +27,8 @@
 			top: 50%;
 			width: 100%;
 			padding: 5px;
-			font-family: Oswald, monospace;
+			/* font-family: Oswald, monospace; */
+			font-family: monospace;
 			font-size: 1rem;
 			text-align:center;
 			color: #ffffff;
@@ -95,19 +98,19 @@
 					position: new THREE.Vector3(),
 					positionRandomness: .3,
 					velocity: new THREE.Vector3(),
-					velocityRandomness: .5,
+					velocityRandomness: .6,
 					color: 0xaa88ff,
-					colorRandomness: .2,
+					colorRandomness: .4,
 					turbulence: .5,
-					lifetime: 2,
+					lifetime: 500.0,
 					size: 7,
-					sizeRandomness: 1
+					sizeRandomness: 6
 				};
 				spawnerOptions = {
-					spawnRate: 5000,
+					spawnRate: 0,
 					horizontalSpeed: 10,
 					verticalSpeed: 10,
-					timeScale: 0.1,
+					timeScale: 1.0,
 				};
 				//
 				// gui.add( options, "velocityRandomness", 0, 3 );
@@ -139,6 +142,10 @@
 
 				window.addEventListener( 'resize', onWindowResize, false );
 
+				for ( var x = 0; x < 2000; x++ ) {
+					options.position = sphereEvenly();
+					particleSystem.spawnParticle( options );
+				}
 			}
 			function onWindowResize() {
 				camera.aspect = window.innerWidth / window.innerHeight;
@@ -165,7 +172,7 @@
 					framecount = 0;
 					// renderer.clearStencil();
 					// renderer.clear(true, true, true);
-					console.log('clear');
+					// console.log('clear');
 				}
 				stats.update();
 			}

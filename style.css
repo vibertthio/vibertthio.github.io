@@ -43,16 +43,26 @@ a:hover {
   opacity: 1;
 }
 
+.emo-spans {
+  font-size: 1.3rem;
+}
+
 @media (min-width: 700px) {
   p {
     font-size: 1.6rem;
-    line-height: 1.5;
+  }
+
+  .emo-spans {
+    font-size: 2.3rem;
   }
 }
 
 @media (min-width: 1000px) {
   p {
     font-size: 2.4rem;
-    line-height: 1.5;
+  }
+
+  .emo-spans {
+    font-size: 3.4rem;
   }
 }

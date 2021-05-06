@@ -4,16 +4,20 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Vibert makes music easier to play with." />
-    <meta name="author" content="Vibert Thio, vibertthio@gmail.com" />
-    <meta name="url" content="https://vibertthio.github.io" />
-    <meta name="image" content="https://vibertthio.github.io/assets/thumbnail.png" />
-    <meta property="og:image" content="https://vibertthio.github.io/assets/thumbnail.png" />
+    <meta name="author" content="Vibert Thio" />
+    <meta name="url" content="https://vibertthio.com" />
+    
+    <meta property="og:image" content="./assets/thumbnail.jpg" />
     <meta property="og:title" content="Vibert Thio" />
     <meta property="og:description" content="Vibert Thio's cyber portal." />
     <meta property="og:url" content="https://vibertthio.com" />
     <meta property="og:site_name" content="Vibert Thio" />
-    <meta name="twitter:image" content="https://vibertthio.github.io/assets/thumbnail.png" />
+
+    <meta name="twitter:title" content="Vibert Thio">
+    <meta name="twitter:description" content="Vibert Thio's cyber portal.">
+    <meta name="twitter:image" content="./assets/thumbnail.jpg" />
     <meta name="twitter:image:alt" content="Vibert Thio's cyber portal." />
+    
 
     <title>Vibert Thio</title>
 
@@ -23,15 +27,6 @@
       sizes="32x32"
       href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/white-smiling-face_263a.png"
     />
-
-    <!-- <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" /> -->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" /> -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Press+Start+2P&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style.css" />
-
     <!-- ga -->
     <script>
       (function (i, s, o, g, r, a, m) {
@@ -51,10 +46,12 @@
       ga('create', 'UA-102358307-1', 'auto');
       ga('send', 'pageview');
     </script>
+
     <base  target="_blank">
   </head>
-
   <body>
+    <canvas id="canvas"></canvas>
+
     <div id="main-div">
       <p>
         <span class="emo-spans">🙌 </span> Hi, I'm Vibert Thio.
@@ -71,7 +68,6 @@
       </p>
 
       <ul>
-
         <li>
           <a href="https://magenta.tensorflow.org/lofi-player">Lo-Fi Player</a>
           [<a href="https://www.technologyreview.com/2020/09/04/1008151/google-ai-machine-learning-quarantine-music/?utm_medium=tr_social&utm_campaign=site_visitor.unpaid.engagement&utm_source=LinkedIn">MIT Tech Review</a>]
@@ -116,28 +112,11 @@
           <a href="https://vibertthio.com/portfolio/projects/etude/">Étude</a>
         </li>
       </ul>
-      
-      <!-- <p>
-        <span class="emo-spans">🎸</span> I make music easier to play with, e.g.
-        <a href="https://g.co/magenta/lofi-player" >Lo-Fi Player</a> and
-        <a href="https://vibertthio.com/beact/" >Beact</a>.
-      </p> -->
 
-      <!-- <p>Previous @Google and @ByteDance.</p> -->
-      <!-- <p>Featured on MIT Tech Review, The Verge, and Engadget.</p> -->
-
-      <!-- <p>
-        <span class="emo-spans">☕️</span> Chilling on
-        <a href="https://github.com/vibertthio" >github</a>,
-        <a href="https://twitter.com/vibertthio" >twitter</a>, and
-        <a href="https://medium.com/@vibertthio" >medium</a>. Flexing on
-        <a href="https://www.linkedin.com/in/vibert-thio-489267152/" >linkedin</a>. Drop a mail?
-      </p> -->
-
-      <br />
       <p>
         <a href="https://vibertthio.com/portfolio/"  >more..</a>
       </p>
     </div>
+    <script type="module" src="./src/index.js"></script>
   </body>
 </html>

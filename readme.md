@@ -1,2 +1,2 @@
 - This is my personal website
-- check [social previews](https://socialsharepreview.com/?url=https://vibertthio.com) after deploy
+- check [social previews](https://socialsharepreview.com/?url=https://vibertthio.com), [twitter](https://cards-dev.twitter.com/validator), and [facebook](https://developers.facebook.com/tools/debug/?q=https%3A%2F%2Fvibertthio.com%2F) after deploy

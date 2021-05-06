@@ -6,6 +6,7 @@
     "start": "parcel index.html --open",
     "prebuild": "rm -rf dist",
     "build": "parcel build index.html --dist-dir dist --no-source-maps --public-url ./",
+    "postbuild": "cp -R ./static/. ./dist",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {

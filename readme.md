@@ -1,1 +1,2 @@
-this is my personal website
+- This is my personal website
+- check [social previews](https://socialsharepreview.com/?url=https://vibertthio.com) after deploy

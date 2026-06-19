@@ -59,7 +59,7 @@ function fmtDate(iso) {
 const tagLabels = {
   idea: "ideas",
   list: "lists",
-  post: "writings",
+  post: "essays",
   project: "projects",
   thesis: "theses",
   tweet: "tweets",
@@ -114,8 +114,9 @@ function Bio() {
       ,{" "}
       <a href="https://vibertthio.com/karesansui/" target="_blank" rel="noreferrer">
         Karesansui
-      </a>{" "}
-      (see more <a href="#/tag/project">#projects</a>).
+      </a>
+      .{" "}
+      Here are my <a href="#/tag/post">essays</a> and <a href="#/tag/project">projects</a>.
     </p>
   );
 }
@@ -210,9 +211,8 @@ function TagChips({ active }) {
 
   return (
     <div className="chips">
-      {open && allChip}
+      {allChip}
       {primary.map(chip)}
-      {!open && allChip}
       {open && rest.map(chip)}
       <button className="chip toggle-tags" onClick={() => setOpen((value) => !value)} aria-expanded={open}>
         {open ? "less -" : "all tags +"}

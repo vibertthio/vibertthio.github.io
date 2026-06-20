@@ -1,6 +1,6 @@
 ---
 title: Étude
-date: 2018-04-01
+date: 2016-10-08
 type: project
 tags:
   - music

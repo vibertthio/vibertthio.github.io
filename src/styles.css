@@ -368,12 +368,17 @@ html.dark .flower {
   display: block;
 }
 
-.post .post-body iframe {
+.post .post-body .video-embed {
   width: 100%;
   aspect-ratio: 16 / 9;
-  height: auto;
-  border: 0;
   border-radius: 6px;
+  overflow: hidden;
+}
+
+.post .post-body .video-embed iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
   display: block;
 }
 

@@ -1,6 +1,6 @@
 ---
 title: Digital Cortex
-date: 2018-06-01
+date: 2018-03-27
 type: project
 tags:
   - music

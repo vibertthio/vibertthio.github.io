@@ -1,6 +1,6 @@
 ---
 title: Beact
-date: 2018-11-01
+date: 2017-06-18
 type: project
 url: https://vibertthio.com/beact/
 tags:

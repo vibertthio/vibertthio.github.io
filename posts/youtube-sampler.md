@@ -1,6 +1,6 @@
 ---
 title: YouTube Sampler
-date: 2019-09-01
+date: 2021-03-02
 type: project
 url: https://chrome.google.com/webstore/detail/youtube-sampler/jfkkfiknnoojphipaipdojadlpdeljbj
 tags:

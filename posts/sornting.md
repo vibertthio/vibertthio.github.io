@@ -1,6 +1,6 @@
 ---
 title: Sornting
-date: 2019-05-01
+date: 2018-12-24
 type: project
 url: https://vibertthio.com/sornting/
 tags:

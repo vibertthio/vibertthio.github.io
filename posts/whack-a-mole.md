@@ -1,6 +1,6 @@
 ---
 title: Whack A Mole
-date: 2018-01-01
+date: 2019-09-23
 type: project
 url: https://vibertthio.com/posenet-whack-a-mole/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: Lo-Fi Player
-date: 2020-06-01
+date: 2020-07-08
 type: project
 url: https://magenta.tensorflow.org/lofi-player
 tags:

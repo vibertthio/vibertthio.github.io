@@ -1,6 +1,6 @@
 ---
 title: Body Beat
-date: 2018-02-01
+date: 2019-09-26
 type: project
 tags:
   - music
@@ -11,9 +11,9 @@ references:
     url: https://ml5js.org/community
 ---
 
-![Body Beat PoseNet screenshot](/projects/body-beat.png)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2GzFCEiiut8?si=CIEmfqY2yFopZxPA" title="Body Beat YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/2GzFCEiiut8?si=CIEmfqY2yFopZxPA" title="Body Beat YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 Body Beat is a body-controlled rhythm experiment built around the idea that movement can become the interface for making beats.
 

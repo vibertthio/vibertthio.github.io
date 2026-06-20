@@ -276,7 +276,7 @@ function PostPage({ slug }) {
         ))}
       </div>
 
-      <div className="post-body" dangerouslySetInnerHTML={{ __html: entry.html }} />
+      <div key={entry.slug} className="post-body" dangerouslySetInnerHTML={{ __html: entry.html }} />
 
       {entry.url && (
         <p className="external-link">
@@ -326,7 +326,7 @@ function App() {
   return (
     <div className="col">
       <TopBar dark={dark} setDark={setDark} />
-      {route.kind === "post" ? <PostPage slug={route.slug} /> : <HomePage tag={route.tag} />}
+      {route.kind === "post" ? <PostPage key={route.slug} slug={route.slug} /> : <HomePage tag={route.tag} />}
       <div className="foot">
         <span>vibertthio.com</span>
         <span>
@@ -340,4 +340,6 @@ function App() {
   );
 }
 
-createRoot(document.getElementById("root")).render(<App />);
+const rootElement = document.getElementById("root");
+window.__vibertRoot ??= createRoot(rootElement);
+window.__vibertRoot.render(<App />);

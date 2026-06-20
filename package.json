@@ -10,6 +10,7 @@
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1",
     "screenshots": "node scripts/capture-screenshots.mjs",
+    "test": "npm run build && node scripts/test-route-navigation.mjs",
     "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {

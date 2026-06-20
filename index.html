@@ -22,6 +22,27 @@
     <meta name="twitter:card" content="summary_large_image" />
 
     <title>vibertthio</title>
+    <meta name="color-scheme" content="light dark" />
+    <style>
+      html {
+        background: #ffffff;
+        color: #2a2a2a;
+      }
+      html.dark {
+        background: #111110;
+        color: #e8e6e1;
+      }
+      body {
+        background: inherit;
+      }
+    </style>
+    <script>
+      (() => {
+        const saved = localStorage.getItem("theme");
+        const dark = saved ? saved === "dark" : window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+        document.documentElement.classList.toggle("dark", Boolean(dark));
+      })();
+    </script>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="alternate" type="application/rss+xml" title="vibertthio" href="/rss.xml" />
   </head>

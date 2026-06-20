@@ -75,16 +75,16 @@ Error generating stack: `+e.message+`
 <p>The best taste isn&#39;t just correct. It&#39;s early, but not too early. Just early enough to see the turn before it happens.</p>
 <p>And yes. There&#39;s more to taste than just <strong>perception, evaluation, influence, and timing</strong>. Sometimes, it&#39;s also a signal, a way to show status, tribe, or identity. I will leave these to another day.</p>
 <p>Next: <a href="#/p/good-taste-widens-my-enjoyment-bandwidth">Good Taste Widens My Enjoyment Bandwidth</a></p>
-`},{slug:`karesansui`,title:`かれさんすい 枯山水`,date:`2021-03-01`,type:`project`,tags:[`visual`],summary:`A small browser sketch inspired by Japanese dry gardens.`,url:`https://vibertthio.com/karesansui/`,references:[],html:`<p><img src="/projects/karesansui.png" alt="Karesansui browser garden still"></p>
-<p>Karesansui is a small browser sketch inspired by Japanese dry gardens.</p>
-<p>The rake is the cursor. The gravel is the data. The rocks are the constraints.</p>
-<p>The central idea was to create a space where you can meditate in the browser. I was strongly impressed by Zen gardens after visiting Kyoto, and wanted to translate that feeling into a generative landscape, meditation garden, and small zen field.</p>
-<p>The page creates a quiet virtual garden where interaction is deliberately slow and minimal. It is less a game than a small ambient toy for drawing, arranging, and watching the scene settle.</p>
+`},{slug:`youtube-sampler`,title:`YouTube Sampler`,date:`2021-03-02`,type:`project`,tags:[`music`],summary:`A Chrome extension for turning YouTube moments into samples.`,url:`https://chrome.google.com/webstore/detail/youtube-sampler/jfkkfiknnoojphipaipdojadlpdeljbj`,references:[],html:`<p><img src="/projects/youtube-sampler.png" alt="YouTube Sampler timeline screenshot"></p>
+<p>YouTube Sampler is a Chrome extension for turning YouTube moments into samples.</p>
+<p>The idea was to make sampling feel immediate: stay inside the browser, find a moment, and turn it into something playable without breaking the flow.</p>
+<p>It lets you set custom cue points for YouTube shortcuts. YouTube already maps numeric keys to positions in the video; YouTube Sampler lets you customize those points, fine-tune them with the shift key, save changes automatically in the browser, and share cue points with friends.</p>
 <ul>
-<li><a href="https://vibertthio.com/karesansui/">Play here</a></li>
-<li><a href="https://github.com/vibertthio/karesansui">Source code</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/youtube-sampler/jfkkfiknnoojphipaipdojadlpdeljbj">Chrome Web Store</a></li>
+<li><a href="https://www.youtube.com/watch?v=beKVsU-CC_c">Demo video</a></li>
+<li><a href="https://github.com/vibertthio/yt-sampler">Source code</a></li>
 </ul>
-`},{slug:`lofi-player`,title:`Lo-Fi Player`,date:`2020-06-01`,type:`project`,tags:[`music`,`ml`],summary:`A virtual room where you make music by interacting with everyday objects.`,url:`https://magenta.tensorflow.org/lofi-player`,references:[{label:`MIT Tech Review`,url:`https://www.technologyreview.com/2020/09/04/1008151/google-ai-machine-learning-quarantine-music/`},{label:`The Verge`,url:`https://www.theverge.com/2020/9/5/21424092/google-magenta-lo-fi-player-virtual-music-room-ai`},{label:`engadget`,url:`https://www.engadget.com/google-magenta-lo-fi-player-music-making-164501958.html`}],html:`<p><img src="/projects/lofi-player.png" alt="Lo-Fi Player room screenshot"></p>
+`},{slug:`lofi-player`,title:`Lo-Fi Player`,date:`2020-07-08`,type:`project`,tags:[`music`,`ml`],summary:`A virtual room where you make music by interacting with everyday objects.`,url:`https://magenta.tensorflow.org/lofi-player`,references:[{label:`MIT Tech Review`,url:`https://www.technologyreview.com/2020/09/04/1008151/google-ai-machine-learning-quarantine-music/`},{label:`The Verge`,url:`https://www.theverge.com/2020/9/5/21424092/google-magenta-lo-fi-player-virtual-music-room-ai`},{label:`engadget`,url:`https://www.engadget.com/google-magenta-lo-fi-player-music-making-164501958.html`}],html:`<p><img src="/projects/lofi-player.png" alt="Lo-Fi Player room screenshot"></p>
 <p>A virtual room where you make music by interacting with everyday objects.</p>
 <p>Built while working with Google Magenta. It turns a room into a playful interface for arranging loops, melodies, and textures.</p>
 <p>The room is the sequencer: click objects, change the mood, and let the music become something closer to a toy than a DAW.</p>
@@ -95,16 +95,32 @@ Error generating stack: `+e.message+`
 <li><a href="https://magenta.tensorflow.org/lofi-player">Read the Magenta post</a></li>
 <li><a href="https://github.com/vibertthio/lofi-player">Source code</a></li>
 </ul>
-`},{slug:`youtube-sampler`,title:`YouTube Sampler`,date:`2019-09-01`,type:`project`,tags:[`music`],summary:`A Chrome extension for turning YouTube moments into samples.`,url:`https://chrome.google.com/webstore/detail/youtube-sampler/jfkkfiknnoojphipaipdojadlpdeljbj`,references:[],html:`<p><img src="/projects/youtube-sampler.png" alt="YouTube Sampler timeline screenshot"></p>
-<p>YouTube Sampler is a Chrome extension for turning YouTube moments into samples.</p>
-<p>The idea was to make sampling feel immediate: stay inside the browser, find a moment, and turn it into something playable without breaking the flow.</p>
-<p>It lets you set custom cue points for YouTube shortcuts. YouTube already maps numeric keys to positions in the video; YouTube Sampler lets you customize those points, fine-tune them with the shift key, save changes automatically in the browser, and share cue points with friends.</p>
+`},{slug:`body-beat`,title:`Body Beat`,date:`2019-09-26`,type:`project`,tags:[`music`,`ml`],summary:`A body-controlled rhythm experiment that turns movement into a beat interface.`,url:``,references:[{label:`ml5.js`,url:`https://ml5js.org/community`}],html:`<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/2GzFCEiiut8?si=CIEmfqY2yFopZxPA" title="Body Beat YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div><p>Body Beat is a body-controlled rhythm experiment built around the idea that movement can become the interface for making beats.</p>
+<p>Instead of starting from pads, knobs, or a timeline, the piece uses body motion as the input. The fun is in making rhythm feel less like editing and more like moving.</p>
+<p>It uses PoseNet to map physical gestures to audio parameters: left hand controls kick volume, right hand controls snare volume, and the height difference between hands controls snare delay to create a controllable shuffle. The visual feedback makes the distance between hands feel tangible, like charging up a visible rhythm field.</p>
 <ul>
-<li><a href="https://chrome.google.com/webstore/detail/youtube-sampler/jfkkfiknnoojphipaipdojadlpdeljbj">Chrome Web Store</a></li>
-<li><a href="https://www.youtube.com/watch?v=beKVsU-CC_c">Demo video</a></li>
-<li><a href="https://github.com/vibertthio/yt-sampler">Source code</a></li>
+<li><a href="https://github.com/vibertthio/body-rhythm">Source code</a></li>
 </ul>
-`},{slug:`sornting`,title:`Sornting`,date:`2019-05-01`,type:`project`,tags:[`music`,`ml`,`game`],summary:`A music experiment collected by the Magenta community demos.`,url:`https://vibertthio.com/sornting/`,references:[{label:`magenta`,url:`https://magenta.tensorflow.org/demos/community/`}],html:`<p><img src="/projects/sornting.png" alt="Sornting gameplay still"></p>
+`},{slug:`whack-a-mole`,title:`Whack A Mole`,date:`2019-09-23`,type:`project`,tags:[`ml`,`game`],summary:`A browser game where you play Whack A Mole with your nose, powered by PoseNet.`,url:`https://vibertthio.com/posenet-whack-a-mole/`,references:[{label:`ml5.js`,url:`https://ml5js.org/community`}],html:`<p><img src="/projects/whack-a-mole.gif" alt="Whack A Mole PoseNet demo"></p>
+<p>Whack A Mole is a browser game where you play with your nose, powered by PoseNet.</p>
+<p>It turns a familiar arcade interaction into a small body-computer interaction sketch: move your head, aim with your face, and hit the moles by leaning into the camera.</p>
+<p>It later became part of Web Olympic, a collection of small physical games on the web designed to get people moving in front of the screen with zero setup.</p>
+<ul>
+<li><a href="https://vibertthio.com/posenet-whack-a-mole/">Play it here</a></li>
+<li><a href="https://vibertthio.com/web-olympic/">Web Olympic</a></li>
+<li><a href="https://github.com/vibertthio/posenet-whack-a-mole">Source code</a></li>
+</ul>
+`},{slug:`runn`,title:`RUNN`,date:`2019-04-18`,type:`project`,tags:[`music`,`ml`,`game`],summary:`A music experiment listed by Google Magenta.`,url:`https://vibertthio.com/runn/`,references:[{label:`magenta`,url:`https://magenta.tensorflow.org/demos`}],html:`<p><img src="/projects/runn.png" alt="RUNN gameplay still"></p>
+<p>RUNN = RNN + run.</p>
+<p>RUNN is a side-scrolling game based on a musical machine learning algorithm that can generate melodies. It was the second project in my exploration of using gamification to make musical machine learning algorithms more understandable and fun.</p>
+<p>The user can play with generated output without needing prior knowledge of musical machine learning. All the levels are generated in realtime with a MusicRNN model. You run and jump while staying in the purple band to keep the musical vibe alive.</p>
+<ul>
+<li><a href="https://vibertthio.com/runn">Play it here</a></li>
+<li><a href="https://github.com/vibertthio/runn">Source code</a></li>
+</ul>
+`},{slug:`sornting`,title:`Sornting`,date:`2018-12-24`,type:`project`,tags:[`music`,`ml`,`game`],summary:`A music experiment collected by the Magenta community demos.`,url:`https://vibertthio.com/sornting/`,references:[{label:`magenta`,url:`https://magenta.tensorflow.org/demos/community/`}],html:`<p><img src="/projects/sornting.png" alt="Sornting gameplay still"></p>
 <p>Sornting = sort + song.</p>
 <p>Sornting is a web-based musical AI game built on a musical machine learning algorithm that interpolates between melodies.</p>
 <p>The player has to figure out the original order of the interpolation between different melodies. As the game progresses, the difficulty increases. I was not trying to claim the interpolation is perfect; the point is that by listening carefully, players can understand both the model and some of its weaknesses.</p>
@@ -113,15 +129,25 @@ Error generating stack: `+e.message+`
 <li><a href="https://vibertthio.com/sornting">Play it here</a></li>
 <li><a href="https://github.com/vibertthio/sornting">Source code</a></li>
 </ul>
-`},{slug:`runn`,title:`RUNN`,date:`2019-03-01`,type:`project`,tags:[`music`,`ml`,`game`],summary:`A music experiment listed by Google Magenta.`,url:`https://vibertthio.com/runn/`,references:[{label:`magenta`,url:`https://magenta.tensorflow.org/demos`}],html:`<p><img src="/projects/runn.png" alt="RUNN gameplay still"></p>
-<p>RUNN = RNN + run.</p>
-<p>RUNN is a side-scrolling game based on a musical machine learning algorithm that can generate melodies. It was the second project in my exploration of using gamification to make musical machine learning algorithms more understandable and fun.</p>
-<p>The user can play with generated output without needing prior knowledge of musical machine learning. All the levels are generated in realtime with a MusicRNN model. You run and jump while staying in the purple band to keep the musical vibe alive.</p>
+`},{slug:`digital-cortex`,title:`Digital Cortex`,date:`2018-03-27`,type:`project`,tags:[`music`,`visual`],summary:`An installation project about digital media, sensory perception, and physical interaction.`,url:``,references:[],html:`<p><img src="/projects/digital-cortex.png" alt="Digital Cortex installation still"></p>
+<p>Digital Cortex is a generative audio-visual work about memory and how recordings transform it.</p>
+<p>The piece imagines a DCR-TRV30 digital camcorder replaying old black digital cassettes. The original images are gone: only glowing, corrupted frames remain. The machine starts to interpret this failure as a different story, one produced by its own hardware, format, and memory.</p>
+<p>It was shown as part of the Chromesthesia exhibition.</p>
 <ul>
-<li><a href="https://vibertthio.com/runn">Play it here</a></li>
-<li><a href="https://github.com/vibertthio/runn">Source code</a></li>
+<li><a href="https://vimeo.com/334245724">Digital Cortex video</a></li>
+<li><a href="http://artemperor.tw/tidbits/7797">The exhibition: Chromesthesia</a></li>
+<li><a href="https://github.com/vibertthio/digital-cortex">Source code</a></li>
 </ul>
-`},{slug:`beact`,title:`Beact`,date:`2018-11-01`,type:`project`,tags:[`music`],summary:`An audio-visual instrument for becoming a DJ and VJ at the same time.`,url:`https://vibertthio.com/beact/`,references:[],html:`<p><img src="/projects/beact-perf.jpg" alt="Beact performance still"></p>
+`},{slug:`karesansui`,title:`かれさんすい 枯山水`,date:`2018-01-06`,type:`project`,tags:[`visual`],summary:`A small browser sketch inspired by Japanese dry gardens.`,url:`https://vibertthio.com/karesansui/`,references:[],html:`<p><img src="/projects/karesansui.png" alt="Karesansui browser garden still"></p>
+<p>Karesansui is a small browser sketch inspired by Japanese dry gardens.</p>
+<p>The rake is the cursor. The gravel is the data. The rocks are the constraints.</p>
+<p>The central idea was to create a space where you can meditate in the browser. I was strongly impressed by Zen gardens after visiting Kyoto, and wanted to translate that feeling into a generative landscape, meditation garden, and small zen field.</p>
+<p>The page creates a quiet virtual garden where interaction is deliberately slow and minimal. It is less a game than a small ambient toy for drawing, arranging, and watching the scene settle.</p>
+<ul>
+<li><a href="https://vibertthio.com/karesansui/">Play here</a></li>
+<li><a href="https://github.com/vibertthio/karesansui">Source code</a></li>
+</ul>
+`},{slug:`beact`,title:`Beact`,date:`2017-06-18`,type:`project`,tags:[`music`],summary:`An audio-visual instrument for becoming a DJ and VJ at the same time.`,url:`https://vibertthio.com/beact/`,references:[],html:`<p><img src="/projects/beact-perf.jpg" alt="Beact performance still"></p>
 <p>Beact is a browser-based VJ, drum machine, and sequencer. It is both an audio-visual interactive art piece and an instrument that lets anyone become a DJ and VJ in seconds.</p>
 <p>It started from the spirit of Patatap, then mixed in a drum sequencer, keyboard-triggered visual effects, and sound controls. The project uses Tone.js for audio and Two.js for visuals, with beat patterns, BPM changes, and sound switching mapped to simple keyboard and mouse gestures.</p>
 <p>The aim was to make an interactive album that the audience could not only listen to, but also participate in.</p>
@@ -132,16 +158,7 @@ Error generating stack: `+e.message+`
 <li><a href="https://github.com/vibertthio/beact">Source code</a></li>
 <li><a href="https://medium.com/@vibertthio/beact-audio-visual-art-in-react-44e9c757e40f">Blog post</a></li>
 </ul>
-`},{slug:`digital-cortex`,title:`Digital Cortex`,date:`2018-06-01`,type:`project`,tags:[`music`,`visual`],summary:`An installation project about digital media, sensory perception, and physical interaction.`,url:``,references:[],html:`<p><img src="/projects/digital-cortex.png" alt="Digital Cortex installation still"></p>
-<p>Digital Cortex is a generative audio-visual work about memory and how recordings transform it.</p>
-<p>The piece imagines a DCR-TRV30 digital camcorder replaying old black digital cassettes. The original images are gone: only glowing, corrupted frames remain. The machine starts to interpret this failure as a different story, one produced by its own hardware, format, and memory.</p>
-<p>It was shown as part of the Chromesthesia exhibition.</p>
-<ul>
-<li><a href="https://vimeo.com/334245724">Digital Cortex video</a></li>
-<li><a href="http://artemperor.tw/tidbits/7797">The exhibition: Chromesthesia</a></li>
-<li><a href="https://github.com/vibertthio/digital-cortex">Source code</a></li>
-</ul>
-`},{slug:`etude`,title:`Étude`,date:`2018-04-01`,type:`project`,tags:[`music`,`visual`],summary:`A music, art, and technology rehabilitation project shown at Ars Electronica and Click Festival.`,url:``,references:[],html:`<p><img src="/projects/etude-01.jpg" alt="Étude rehabilitation game still"></p>
+`},{slug:`etude`,title:`Étude`,date:`2016-10-08`,type:`project`,tags:[`music`,`visual`],summary:`A music, art, and technology rehabilitation project shown at Ars Electronica and Click Festival.`,url:``,references:[],html:`<p><img src="/projects/etude-01.jpg" alt="Étude rehabilitation game still"></p>
 <p>Étude was built around a goal: bring back some of the colorful youth and future that victims of an incident had lost through music, art, and technology.</p>
 <p>The project responded to the Formosa Fun Coast explosion. The victims were mostly young people, many still undergoing physical and psychological treatment. Together with Aluan Wang, I built a music game for rehabilitation using Kinect interaction: when a patient moved their body in a way that matched the therapy requirement, the system produced audio-visual feedback.</p>
 <p>The project tried to change how rehabilitation felt. Patients could keep up with the tempo of the game and compose melodies through the rehab process. Later, I extracted patterns from their composing records and turned them into a live-coded performance.</p>
@@ -152,21 +169,5 @@ Error generating stack: `+e.message+`
 <li><a href="https://www.youtube.com/watch?v=lHnUpyWlh6k&t=1329s">Showcase at Click Festival 2017</a></li>
 <li><a href="https://www.youtube.com/watch?v=zU01cFDjL6s">Showcase in Taipei 2016</a></li>
 <li><a href="https://github.com/vibertthio/etude">Source code</a></li>
-</ul>
-`},{slug:`body-beat`,title:`Body Beat`,date:`2018-02-01`,type:`project`,tags:[`music`,`ml`],summary:`A body-controlled rhythm experiment that turns movement into a beat interface.`,url:``,references:[{label:`ml5.js`,url:`https://ml5js.org/community`}],html:`<p><img src="/projects/body-beat.png" alt="Body Beat PoseNet screenshot"></p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2GzFCEiiut8?si=CIEmfqY2yFopZxPA" title="Body Beat YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><p>Body Beat is a body-controlled rhythm experiment built around the idea that movement can become the interface for making beats.</p>
-<p>Instead of starting from pads, knobs, or a timeline, the piece uses body motion as the input. The fun is in making rhythm feel less like editing and more like moving.</p>
-<p>It uses PoseNet to map physical gestures to audio parameters: left hand controls kick volume, right hand controls snare volume, and the height difference between hands controls snare delay to create a controllable shuffle. The visual feedback makes the distance between hands feel tangible, like charging up a visible rhythm field.</p>
-<ul>
-<li><a href="https://github.com/vibertthio/body-rhythm">Source code</a></li>
-</ul>
-`},{slug:`whack-a-mole`,title:`Whack A Mole`,date:`2018-01-01`,type:`project`,tags:[`ml`,`game`],summary:`A browser game where you play Whack A Mole with your nose, powered by PoseNet.`,url:`https://vibertthio.com/posenet-whack-a-mole/`,references:[{label:`ml5.js`,url:`https://ml5js.org/community`}],html:`<p><img src="/projects/whack-a-mole.gif" alt="Whack A Mole PoseNet demo"></p>
-<p>Whack A Mole is a browser game where you play with your nose, powered by PoseNet.</p>
-<p>It turns a familiar arcade interaction into a small body-computer interaction sketch: move your head, aim with your face, and hit the moles by leaning into the camera.</p>
-<p>It later became part of Web Olympic, a collection of small physical games on the web designed to get people moving in front of the screen with zero setup.</p>
-<ul>
-<li><a href="https://vibertthio.com/posenet-whack-a-mole/">Play it here</a></li>
-<li><a href="https://vibertthio.com/web-olympic/">Web Olympic</a></li>
-<li><a href="https://github.com/vibertthio/posenet-whack-a-mole">Source code</a></li>
 </ul>
 `}],b=o((e=>{var t=Symbol.for(`react.transitional.element`),n=Symbol.for(`react.fragment`);function r(e,n,r){var i=null;if(r!==void 0&&(i=``+r),n.key!==void 0&&(i=``+n.key),`key`in n)for(var a in r={},n)a!==`key`&&(r[a]=n[a]);else r=n;return n=r.ref,{$$typeof:t,type:e,key:i,ref:n===void 0?null:n,props:r}}e.Fragment=n,e.jsx=r,e.jsxs=r})),x=o(((e,t)=>{t.exports=b()}))();function ee(){let e=window.location.hash.replace(/^#\/?/,``);if(!e)return{kind:`home`,tag:null};let t=e.split(`/`).filter(Boolean);return t[0]===`tag`&&t[1]?{kind:`home`,tag:decodeURIComponent(t[1])}:t[0]===`p`&&t[1]?{kind:`post`,slug:decodeURIComponent(t[1])}:{kind:`home`,tag:null}}function S(){let[e,t]=(0,_.useState)(ee);return(0,_.useEffect)(()=>{let e=()=>{t(ee()),window.scrollTo(0,0)};return window.addEventListener(`hashchange`,e),()=>window.removeEventListener(`hashchange`,e)},[]),e}function C(){let[e,t]=(0,_.useState)(()=>{let e=localStorage.getItem(`theme`);return e?e===`dark`:window.matchMedia?.(`(prefers-color-scheme: dark)`).matches});return(0,_.useEffect)(()=>{document.documentElement.classList.toggle(`dark`,e),localStorage.setItem(`theme`,e?`dark`:`light`)},[e]),[e,t]}function te(e){return[e.type,...(e.tags||[]).filter(t=>t!==e.type)]}function ne(e){let[t,n,r]=e.split(`-`);return`${t}.${n}.${r}`}var re={idea:`ideas`,list:`lists`,post:`essays`,project:`projects`,thesis:`theses`,tweet:`tweets`,wip:`wips`};function w(e){return re[e]||e}function ie(e){return e.title||e.summary||e.slug}function ae({dark:e,setDark:t}){return(0,x.jsxs)(`div`,{className:`topbar`,children:[(0,x.jsx)(`a`,{className:`brand`,href:`#/`,children:`vibertthio`}),(0,x.jsxs)(`div`,{className:`nav`,children:[(0,x.jsx)(`a`,{href:`#/`,children:`home`}),(0,x.jsx)(`a`,{href:`https://github.com/vibertthio`,target:`_blank`,rel:`noreferrer`,children:`github`}),(0,x.jsx)(`a`,{href:`https://x.com/vibertthio`,target:`_blank`,rel:`noreferrer`,children:`x`}),(0,x.jsx)(`a`,{href:`/rss.xml`,target:`_blank`,rel:`noreferrer`,children:`rss`}),(0,x.jsx)(`button`,{className:`toggle`,onClick:()=>t(e=>!e),title:`toggle theme`,children:e?`☾`:`☀`})]})]})}function oe(){return(0,x.jsxs)(`p`,{className:`bio`,children:[(0,x.jsx)(`span`,{className:`wave`,children:`🙌`}),` Hi, I'm Vibert Thio. I make music easier to play with, at `,(0,x.jsx)(`a`,{href:`https://suno.com/`,children:`Suno`}),`, ex TikTok, Google Magenta. I built`,` `,(0,x.jsx)(`a`,{href:`https://magenta.tensorflow.org/lofi-player`,target:`_blank`,rel:`noreferrer`,children:`Lo-Fi Player`}),`,`,` `,(0,x.jsx)(`a`,{href:`https://vibertthio.com/beact/`,target:`_blank`,rel:`noreferrer`,children:`Beact`}),`,`,` `,(0,x.jsx)(`a`,{href:`https://vibertthio.com/karesansui/`,target:`_blank`,rel:`noreferrer`,children:`Karesansui`}),`.`,` `,`Here are my `,(0,x.jsx)(`a`,{href:`#/tag/post`,children:`essays`}),` and `,(0,x.jsx)(`a`,{href:`#/tag/project`,children:`projects`}),`.`]})}function se({references:e}){return e?.length?(0,x.jsxs)(`span`,{className:`refs`,children:[` `,`[`,e.map((e,t)=>(0,x.jsxs)(_.Fragment,{children:[t>0&&`] [`,(0,x.jsx)(`a`,{href:e.url,target:`_blank`,rel:`noreferrer`,children:e.label})]},e.url)),`]`]}):null}function ce({entry:e}){let t=`#/p/${encodeURIComponent(e.slug)}`,n=te(e);return(0,x.jsxs)(`div`,{className:`row ${e.type}`,children:[(0,x.jsx)(`span`,{className:`date`,children:ne(e.date)}),(0,x.jsxs)(`div`,{className:`body`,children:[e.type===`tweet`||e.type===`idea`?(0,x.jsx)(`a`,{href:t,className:`plain-link`,children:e.summary}):(0,x.jsxs)(x.Fragment,{children:[(0,x.jsx)(`a`,{href:t,children:ie(e)}),(0,x.jsx)(se,{references:e.references})]}),(0,x.jsx)(`span`,{className:`row-tags`,children:n.map(e=>(0,x.jsx)(`a`,{className:`chip`,href:`#/tag/${encodeURIComponent(e)}`,children:w(e)},e))})]})]})}function le({active:e}){let t=(0,_.useMemo)(()=>{let e={};return y.forEach(t=>{te(t).forEach(t=>{e[t]=(e[t]||0)+1})}),e},[]),n=[`post`,`project`].filter(e=>t[e]),r=[`post`,`thesis`,`wip`,`idea`,`list`,`tweet`,`project`],i=r.filter(e=>t[e]&&!n.includes(e)),a=Object.entries(t).filter(([e])=>!r.includes(e)).sort((e,t)=>t[1]-e[1]||e[0].localeCompare(t[0])).map(([e])=>e),o=[...i,...a],s=e&&o.includes(e),[c,l]=(0,_.useState)(!!s);(0,_.useEffect)(()=>{s&&l(!0)},[s]);let u=n=>(0,x.jsxs)(`a`,{className:`chip ${e===n?`active`:``}`,href:`#/tag/${encodeURIComponent(n)}`,children:[w(n),(0,x.jsx)(`span`,{className:`n`,children:t[n]})]},n);return(0,x.jsxs)(`div`,{className:`chips`,children:[(0,x.jsxs)(`a`,{className:`chip all ${e?``:`active`}`,href:`#/`,children:[`all `,(0,x.jsx)(`span`,{className:`n`,children:y.length})]}),n.map(u),c&&o.map(u),(0,x.jsx)(`button`,{className:`chip toggle-tags`,onClick:()=>l(e=>!e),"aria-expanded":c,children:c?`less -`:`all tags +`})]})}function ue({tag:e}){let t=(0,_.useMemo)(()=>e?y.filter(t=>te(t).includes(e)):y,[e]);return(0,x.jsxs)(x.Fragment,{children:[(0,x.jsx)(oe,{}),(0,x.jsx)(le,{active:e}),(0,x.jsx)(`div`,{className:`feed`,children:t.length===0?(0,x.jsx)(`div`,{className:`empty`,children:`nothing here yet ✿`}):t.map(e=>(0,x.jsx)(ce,{entry:e},e.slug))})]})}function T({slug:e}){let t=y.findIndex(t=>t.slug===e);if(t===-1)return(0,x.jsxs)(x.Fragment,{children:[(0,x.jsx)(`a`,{className:`back`,href:`#/`,children:`← home`}),(0,x.jsx)(`div`,{className:`empty`,children:`post not found`})]});let n=y[t],r=y[t-1],i=y[t+1];return(0,x.jsxs)(`div`,{className:`post`,children:[(0,x.jsx)(`a`,{className:`back`,href:`#/`,children:`← home`}),(0,x.jsx)(`h1`,{children:ie(n)}),(0,x.jsxs)(`div`,{className:`post-meta`,children:[(0,x.jsx)(`span`,{children:ne(n.date)}),(0,x.jsx)(`span`,{children:`·`}),te(n).map(e=>(0,x.jsx)(`a`,{className:`chip`,href:`#/tag/${encodeURIComponent(e)}`,children:w(e)},e))]}),(0,x.jsx)(`div`,{className:`post-body`,dangerouslySetInnerHTML:{__html:n.html}}),n.url&&(0,x.jsx)(`p`,{className:`external-link`,children:(0,x.jsx)(`a`,{href:n.url,target:`_blank`,rel:`noreferrer`,children:`open project →`})}),!!n.references?.length&&(0,x.jsxs)(`p`,{className:`reference-list`,children:[`featured in:`,` `,n.references.map((e,t)=>(0,x.jsxs)(_.Fragment,{children:[t>0&&`, `,(0,x.jsx)(`a`,{href:e.url,target:`_blank`,rel:`noreferrer`,children:e.label})]},e.url))]}),(r||i)&&(0,x.jsxs)(`div`,{className:`pn`,children:[r&&(0,x.jsxs)(`a`,{className:`pn-card prev`,href:`#/p/${encodeURIComponent(r.slug)}`,children:[(0,x.jsx)(`span`,{className:`arrow`,children:`← newer`}),(0,x.jsx)(`span`,{className:`title`,children:ie(r)})]}),i&&(0,x.jsxs)(`a`,{className:`pn-card next`,href:`#/p/${encodeURIComponent(i.slug)}`,children:[(0,x.jsx)(`span`,{className:`arrow`,children:`older →`}),(0,x.jsx)(`span`,{className:`title`,children:ie(i)})]})]})]})}function E(){let e=S(),[t,n]=C();return(0,x.jsxs)(`div`,{className:`col`,children:[(0,x.jsx)(ae,{dark:t,setDark:n}),e.kind===`post`?(0,x.jsx)(T,{slug:e.slug}):(0,x.jsx)(ue,{tag:e.tag}),(0,x.jsxs)(`div`,{className:`foot`,children:[(0,x.jsx)(`span`,{children:`vibertthio.com`}),(0,x.jsxs)(`span`,{children:[(0,x.jsx)(`a`,{href:`/rss.xml`,target:`_blank`,rel:`noreferrer`,children:`rss`}),` `,`· made with care`]})]})]})}(0,v.createRoot)(document.getElementById(`root`)).render((0,x.jsx)(E,{}));

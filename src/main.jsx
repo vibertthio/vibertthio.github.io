@@ -74,6 +74,12 @@ function titleFor(entry) {
   return entry.title || entry.summary || entry.slug;
 }
 
+function reloadToPost(event, slug) {
+  event.preventDefault();
+  window.location.hash = `/p/${encodeURIComponent(slug)}`;
+  window.location.reload();
+}
+
 function TopBar({ dark, setDark }) {
   return (
     <div className="topbar">
@@ -302,13 +308,13 @@ function PostPage({ slug }) {
       {(newer || older) && (
         <div className="pn">
           {newer && (
-          <a className="pn-card prev" href={`#/p/${encodeURIComponent(newer.slug)}`}>
+          <a className="pn-card prev" href={`#/p/${encodeURIComponent(newer.slug)}`} onClick={(event) => reloadToPost(event, newer.slug)}>
             <span className="arrow">← newer</span>
             <span className="title">{titleFor(newer)}</span>
           </a>
           )}
           {older && (
-          <a className="pn-card next" href={`#/p/${encodeURIComponent(older.slug)}`}>
+          <a className="pn-card next" href={`#/p/${encodeURIComponent(older.slug)}`} onClick={(event) => reloadToPost(event, older.slug)}>
             <span className="arrow">older →</span>
             <span className="title">{titleFor(older)}</span>
           </a>
@@ -322,6 +328,10 @@ function PostPage({ slug }) {
 function App() {
   const route = useHashRoute();
   const [dark, setDark] = useTheme();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [route.kind, route.slug, route.tag]);
 
   return (
     <div className="col">
@@ -343,3 +353,9 @@ function App() {
 const rootElement = document.getElementById("root");
 window.__vibertRoot ??= createRoot(rootElement);
 window.__vibertRoot.render(<App />);
+
+if (import.meta.hot) {
+  import.meta.hot.accept(() => {
+    window.location.reload();
+  });
+}

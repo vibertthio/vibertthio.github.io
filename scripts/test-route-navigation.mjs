@@ -44,6 +44,7 @@ try {
 
   await page.goto(`${baseUrl}/#/p/good-taste-widens-my-enjoyment-bandwidth`, { waitUntil: "networkidle" });
   await page.locator(".pn-card.next").click();
+  await page.waitForLoadState("networkidle");
   await expect(page).toHaveURL(/#\/p\/build-better-taste-step-1$/);
   await expect(page.getByRole("heading", { name: "Build Better Taste, Step 1" })).toBeVisible();
   await expect(page.locator(".post")).not.toContainText("By adopting different aesthetics");

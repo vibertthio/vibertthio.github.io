@@ -299,30 +299,22 @@ function PostPage({ slug }) {
         </p>
       )}
 
-      <div className="pn">
-        {newer ? (
+      {(newer || older) && (
+        <div className="pn">
+          {newer && (
           <a className="pn-card prev" href={`#/p/${encodeURIComponent(newer.slug)}`}>
             <span className="arrow">← newer</span>
             <span className="title">{titleFor(newer)}</span>
           </a>
-        ) : (
-          <span className="pn-card prev">
-            <span className="arrow">← newer</span>
-            <span className="muted">—</span>
-          </span>
-        )}
-        {older ? (
+          )}
+          {older && (
           <a className="pn-card next" href={`#/p/${encodeURIComponent(older.slug)}`}>
             <span className="arrow">older →</span>
             <span className="title">{titleFor(older)}</span>
           </a>
-        ) : (
-          <span className="pn-card next">
-            <span className="arrow">older →</span>
-            <span className="muted">—</span>
-          </span>
-        )}
-      </div>
+          )}
+        </div>
+      )}
     </div>
   );
 }

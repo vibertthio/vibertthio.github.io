@@ -74,10 +74,13 @@ function titleFor(entry) {
   return entry.title || entry.summary || entry.slug;
 }
 
-function reloadToPost(event, slug) {
+function navigateToPost(event, slug) {
   event.preventDefault();
-  window.location.hash = `/p/${encodeURIComponent(slug)}`;
-  window.location.reload();
+  const nextHash = `#/p/${encodeURIComponent(slug)}`;
+  if (window.location.hash === nextHash) return;
+
+  window.history.pushState(null, "", nextHash);
+  window.dispatchEvent(new HashChangeEvent("hashchange"));
 }
 
 function TopBar({ dark, setDark }) {
@@ -308,13 +311,13 @@ function PostPage({ slug }) {
       {(newer || older) && (
         <div className="pn">
           {newer && (
-          <a className="pn-card prev" href={`#/p/${encodeURIComponent(newer.slug)}`} onClick={(event) => reloadToPost(event, newer.slug)}>
+          <a className="pn-card prev" href={`#/p/${encodeURIComponent(newer.slug)}`} onClick={(event) => navigateToPost(event, newer.slug)}>
             <span className="arrow">← newer</span>
             <span className="title">{titleFor(newer)}</span>
           </a>
           )}
           {older && (
-          <a className="pn-card next" href={`#/p/${encodeURIComponent(older.slug)}`} onClick={(event) => reloadToPost(event, older.slug)}>
+          <a className="pn-card next" href={`#/p/${encodeURIComponent(older.slug)}`} onClick={(event) => navigateToPost(event, older.slug)}>
             <span className="arrow">older →</span>
             <span className="title">{titleFor(older)}</span>
           </a>

@@ -43,7 +43,7 @@ Error generating stack: `+e.message+`
 <p>Common sense usually links taste to people who only enjoy the best things. But I want to break that mindset. My goal for building taste is to become the kind of person I just described: someone who can find more kinds of enjoyment, and <strong>actually</strong> enjoy them.</p>
 <p>Good taste liberates my choices, while bad taste limits my choices. Bad taste traps me inside crude signals: expensive means good, cheap means good, famous means good, unkonwn means good, rare means good, familiar means good, contradictory means good. Good taste gives me more ways to meet the world.</p>
 <p>In this sense, I hate that taste is perceived as a luxury skill. It does not have to be about status, money, or superiority. It can be a daily skill for pleasure, attention, and enjoying my time in this short but fun life.</p>
-<p>I intentionally exclude the motivation of influencing other people with my taste or aesthetics. I also excluded timing, being on the edge of what is new, and being cool. There are two reasons:</p>
+<p>Here I intentionally exclude the motivation of influencing other people with my taste or aesthetics. I also excluded timing, being on the edge of what is new, and being cool. There are two reasons:</p>
 <ol>
 <li>They are not the main drive for me.</li>
 <li>They all involve other people&#39;s opinions.</li>

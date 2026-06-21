@@ -82,7 +82,7 @@ Good taste liberates my choices, while bad taste limits my choices. Bad taste tr
 
 In this sense, I hate that taste is perceived as a luxury skill. It does not have to be about status, money, or superiority. It can be a daily skill for pleasure, attention, and enjoying my time in this short but fun life.
 
-I intentionally exclude the motivation of influencing other people with my taste or aesthetics. I also excluded timing, being on the edge of what is new, and being cool. There are two reasons:
+Here I intentionally exclude the motivation of influencing other people with my taste or aesthetics. I also excluded timing, being on the edge of what is new, and being cool. There are two reasons:
 
 1. They are not the main drive for me.
 2. They all involve other people's opinions.

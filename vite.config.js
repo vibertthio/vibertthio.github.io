@@ -75,6 +75,7 @@ async function readEntries() {
         title: data.title || "",
         date: data.date ? String(data.date).slice(0, 10) : "",
         type,
+        listed: data.listed !== false,
         tags,
         summary: data.summary || excerptFrom(markdown),
         url: data.url || "",
@@ -99,6 +100,7 @@ function escapeXml(value) {
 
 function renderRss(entries) {
   const items = entries
+    .filter((entry) => entry.listed)
     .map((entry) => {
       const title = entry.title || entry.summary || entry.slug;
       const link = `${siteUrl}/#/p/${encodeURIComponent(entry.slug)}`;
@@ -139,7 +141,8 @@ function postsPlugin() {
       });
 
       const entries = await readEntries();
-      return `export const ENTRIES = ${JSON.stringify(entries)};`;
+      return `export const ENTRIES = ${JSON.stringify(entries)};
+export const LISTED_ENTRIES = ENTRIES.filter((entry) => entry.listed);`;
     },
     configureServer(server) {
       server.watcher.add(postsDir);

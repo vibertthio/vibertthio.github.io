@@ -34,6 +34,7 @@ Supported frontmatter:
 - `title`: optional for tweets/short notes, recommended for posts and projects.
 - `date`: required, in `YYYY-MM-DD` format.
 - `type`: `post`, `project`, `tweet`, `idea`, `list`, `wip`, or `thesis`.
+- `listed`: defaults to `true`. Set `listed: false` to publish a post only by direct URL, excluding it from the homepage, tag listings/counts, RSS, and previous/next links. The page is still publicly accessible.
 - `tags`: optional list of tags. The visible tag chips are inferred directly from all markdown files plus each file's `type`.
 - `summary`: optional homepage excerpt. If omitted, the first markdown block is used.
 - `url`: optional external project URL.

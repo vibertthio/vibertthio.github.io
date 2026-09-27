@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
-import { ENTRIES } from "virtual:posts";
+import { ENTRIES, LISTED_ENTRIES } from "virtual:posts";
 import "./styles.css";
 
 function parseRoute() {
@@ -183,7 +183,7 @@ function FeedRow({ entry }) {
 function TagChips({ active }) {
   const counts = useMemo(() => {
     const map = {};
-    ENTRIES.forEach((entry) => {
+    LISTED_ENTRIES.forEach((entry) => {
       entryTags(entry).forEach((tag) => {
         map[tag] = (map[tag] || 0) + 1;
       });
@@ -214,7 +214,7 @@ function TagChips({ active }) {
   );
   const allChip = (
     <a className={`chip all ${!active ? "active" : ""}`} href="#/">
-      all <span className="n">{ENTRIES.length}</span>
+      all <span className="n">{LISTED_ENTRIES.length}</span>
     </a>
   );
 
@@ -232,8 +232,8 @@ function TagChips({ active }) {
 
 function HomePage({ tag }) {
   const filtered = useMemo(() => {
-    if (!tag) return ENTRIES;
-    return ENTRIES.filter((entry) => entryTags(entry).includes(tag));
+    if (!tag) return LISTED_ENTRIES;
+    return LISTED_ENTRIES.filter((entry) => entryTags(entry).includes(tag));
   }, [tag]);
 
   return (
@@ -252,9 +252,9 @@ function HomePage({ tag }) {
 }
 
 function PostPage({ slug }) {
-  const index = ENTRIES.findIndex((entry) => entry.slug === slug);
+  const entry = ENTRIES.find((entry) => entry.slug === slug);
 
-  if (index === -1) {
+  if (!entry) {
     return (
       <>
         <a className="back" href="#/">
@@ -265,9 +265,9 @@ function PostPage({ slug }) {
     );
   }
 
-  const entry = ENTRIES[index];
-  const newer = ENTRIES[index - 1];
-  const older = ENTRIES[index + 1];
+  const index = LISTED_ENTRIES.findIndex((item) => item.slug === slug);
+  const newer = index >= 0 ? LISTED_ENTRIES[index - 1] : null;
+  const older = index >= 0 ? LISTED_ENTRIES[index + 1] : null;
 
   return (
     <div className="post">

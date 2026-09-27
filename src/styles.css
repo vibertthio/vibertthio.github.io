@@ -63,6 +63,22 @@ a:hover {
   margin: 0 auto;
   padding: 56px 28px 96px;
   position: relative;
+  isolation: isolate;
+}
+
+.flower-canvas {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+html.dark .flower-canvas {
+  filter: invert(1);
+  opacity: 0.3;
 }
 
 .flower {

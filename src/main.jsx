@@ -1,7 +1,9 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { lazy, Suspense, useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { ENTRIES, LISTED_ENTRIES } from "virtual:posts";
 import "./styles.css";
+
+const FlowerBackground = lazy(() => import("./FlowerBackground"));
 
 function parseRoute() {
   const hash = window.location.hash.replace(/^#\/?/, "");
@@ -238,6 +240,9 @@ function HomePage({ tag }) {
 
   return (
     <>
+      <Suspense fallback={null}>
+        <FlowerBackground />
+      </Suspense>
       <Bio />
       <TagChips active={tag} />
       <div className="feed">
